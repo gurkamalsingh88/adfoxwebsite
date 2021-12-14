@@ -18,15 +18,15 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Switch>
-            <Route exact path="/Home-developer" component={Home3} />
+            <Route exact path="/" component={Homefrelencer} />
             <Route path="/Home2" component={Home2} />
             <Route path="/Home3" component={Home} />
             <Route path="/Home4" component={Home4} />
             <Route path="/Home5" component={Home5} />
             <Route path="/Home6" component={Home6} />
-            <Route path="/Home-frelencer" component={Homefrelencer} />
+            <Route path="/Home-frelencer" component={Home3} />
             <Route path="/Creative-carousel" component={Creativecarousel} />
-            <Route path="/" component={HomeDeveloper} />
+            <Route path="" component={HomeDeveloper} />
             <Route component={NotFound} />
           </Switch>
         </Router>
